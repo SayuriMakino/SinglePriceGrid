@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+body{
+    background-color: hsl(204, 43%, 93%);  
+    font-size: 16px; 
+}
+
+main{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 600px;
+    font-family: 'karla';
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+div{
+    width: auto;
+    height: auto;
+}
+
+.One{
+    background-color: white;
+    padding: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.two{
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    padding: 20px;
+    width: 50%;
+    border-bottom-left-radius: 5px;
+    
+}
+
+.three{
+    background-color: hsla(179, 62%, 43%, 0.678);
+    color: white;
+    padding: 20px;
+    width: 50%;
+    border-bottom-right-radius: 5px;
+}
+
+#container{
+    display: flex;
+}
+
+button{
+    padding: 12px 80px 12px 80px;
+    color: white;
+    font-family: 'karla';
+    font-weight: bold;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    margin-left: 24px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+h2{
+    color: hsl(179, 62%, 43%);
+}
+
+#one{
+    color: hsl(71, 73%, 54%);
+    font-weight: bold;
+}
+
+#two{
+    color: hsl(201, 12%, 69%);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.number{
+    display: inline;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.514);
+    
+}
+
+#number{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+
+#Full{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.863);
+}
+
+#back{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.74);
+}
